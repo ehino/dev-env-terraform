@@ -7,4 +7,8 @@ To get started, in your local machine:
 1. Install Terraform cli from https://www.terraform.io/downloads
 2. Clone this repo https://github.com/ehino/dev-env-terraform.git
 3. run ``` terraform init ```
-4. run ``` terraform plan ```
+4. run ``` terraform plan ``` to see the resources to be deployed
+5. run ``` terraform apply ``` to deploy the infrastructure
+
+To destroy the already existing infrastructure:
+run ``` terraform destroy ```
